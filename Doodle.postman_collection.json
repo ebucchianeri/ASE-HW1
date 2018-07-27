@@ -1,0 +1,642 @@
+{
+	"info": {
+		"name": "Doodle",
+		"_postman_id": "d6c296e1-c47c-1732-ef5b-8ec63505843d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET vuota /doodles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"frid\",\n\t\"option\":\"pizza\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT friday /doodles",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"friday\",\n\t\"options\": [\n\t\t\t\"pool\",\n\t\t\t\"pizza\"\n\t\t\t]\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT friday diverseopzioni /doodles",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"friday\",\n\t\"options\": [\n\t\t\t\"pool\",\n\t\t\t\"game\"\n\t\t\t]\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT sunday /doodles",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"sunday\",\n\t\"options\": [\n\t\t\t\"pool\",\n\t\t\t\"bowling\",\n\t\t\t\"beach\"\n\t\t\t]\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET    /doodles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT vote 0 elena /doodles/0/vote",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pizza\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT vote 0 elena altraopzione /doodles/0/vote",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET   doodle 0  /doodles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET   doodle 2 nonesistente  /doodles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/2",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"2"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST 0 elena /doodles/0/vote/elena",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"option\": \"pool\",\n\t\"name\":\"elena\"\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote/elena",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote",
+						"elena"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET vote elena /doodles/0/vote/elena",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote/elena",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote",
+						"elena"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST fried nonesistente /doodles/0/vote/fried",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"option\": \"pool\",\n\t\"name\":\"fried\"\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote/fried",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote",
+						"fried"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT vote 0 fried /doodles/0/vote",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"fried\",\n\t\"option\":\"pizza\"\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET vote fried /doodles/0/vote/fried",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote/fried",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote",
+						"fried"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET doodles /doodles/ copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DEL vote elena 0 /doodles/0/vote/elena",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote/elena",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote",
+						"elena"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DEL vote elena 0 /doodles/0/vote/elena copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/0/vote/elena",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"0",
+						"vote",
+						"elena"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DEL doodle 1 /doodles/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/1",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET doodles /doodles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"elena\",\n\t\"option\":\"pool\"\n\n}"
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DEL doodle 1 /doodles/1 copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://murmuring-peak-81684.herokuapp.com/doodles/1",
+					"protocol": "https",
+					"host": [
+						"murmuring-peak-81684",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"doodles",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
